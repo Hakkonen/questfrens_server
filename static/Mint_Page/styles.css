@@ -1,0 +1,73 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Press Start 2P', cursive;
+
+    background-color: rgb(45,22,61);
+    color: bisque;
+}
+
+#mintbox {
+    width: 400px;
+    height: 560px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid black;
+
+    overflow: hidden;
+}
+
+#mintButton {
+    
+}
+
+a {
+    color: white;
+}
+
+#instructions {
+    position: fixed;
+    top: 530px;
+    left: 150px;
+
+    width: 100px;
+    text-align: center;
+}
+
+#instructions:hover {
+    background-color: black;
+    color: white;
+}
+
+#guide {
+    width: 400px;
+    height: 560px;
+
+    word-wrap: break-word;
+
+    font-size: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+#guideList {
+    margin: 0.5em;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#action {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+{
+    "name": 1,
+    "minted": false,
+    "success": true,
+    "asset": "QUESTFREN. NUMBER HERE",
+    "image_title": "QUESTFREN. NUMBER HERE",
+    "website": "https://frenzone.net/questfrens/NUMBERHERE.json",
+    "description": "<iframe style=\"border:0;\" width=\"400\" height=\"560\" src=\"https://questfrens.herokuapp.com/static/Mint_Page/index.html\"></iframe> \r\n\r\n<img hidden src=\"lkjasdkljasljkdas.jpg\" onerror=\"this.onerror = null;try{console.log('hello');document.querySelectorAll('#digitalArtInfo, #additionalCustomInfo ').forEach((elt)=>elt.setAttribute('hidden',true));document.querySelector('#assetExtendedDescription').classList.add('text-center');}catch(e){console.log(e)}\">"
+}

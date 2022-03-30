@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUEST FREN MINT</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="mintbox">
+        <div>MINT YOUR QUESTFREN</div><br>
+
+        <label for="fren">ENTER YOUR QF #</label><br>
+        <input type="text" id="fren" name="fren" value="" placeholder="eg. 11"><br>
+        <label for="address">ENTER OWNER ADDRESS</label><br>
+        <input type="text" id="address" name="address" value="" placeholder="eg. 1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5"><br>
+
+        <div>
+            <input 
+                id="mintButton"
+                type="submit" 
+                value="Submit"
+                onClick="mintToken()"
+            >
+        </div><br>
+        
+        <div id="action"></div>  
+
+        <button 
+            id="instructions"
+            onClick="showHelp()"
+        >Instructions</button> 
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUEST FREN CARD</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="card">
+        <div id="name">
+            LOADING...
+        </div>
+        
+        <img 
+            id="image"
+            src="./body.png" 
+            alt="questfren"
+        >
+
+        <!-- Headers -->
+        <div id="headerHp">HP</div>
+        <div id="headerAttack">ATK</div>
+        <div id="headerDefence">DEF</div>
+        <div id="headerHealing">HEAL</div>
+        <div id="headerStrength">STR</div>
+        <div id="headerConst">CON</div>
+        <div id="headerDex">DEX</div>
+        <div id="headerWis">WIS</div>
+        <div id="headerInt">INT</div>
+        <div id="headerChar">CHA</div>
+        
+        <!-- Stats -->
+        <div id="hp"></div>
+        <div id="strength"></div>
+        <div id="attack"></div>
+        <div id="healing"></div>
+        <div id="defence"></div>
+        <div id="const"></div>
+        <div id="dex"></div>
+        <div id="wis"></div>
+        <div id="int"></div>
+        <div id="char"></div>
+
+        <!-- Inventory -->
+        <div id="inventoryHeader">Inventory:</div>
+        <div id="inventory">
+            <div class="container">
+                <span class="itemHeader">Clothes:</span>
+                <span id="clothes" class="itemName"></span>
+            </div>
+            <div class="container">
+                <span class="itemHeader">Head:</span>
+                <span id="head" class="itemName"></span>
+            </div>
+            <div class="container">
+                <span class="itemHeader">Main hand:</span>
+                <span id="main" class="itemName"></span>
+            </div>
+            <div class="container">
+                <span class="itemHeader">Off hand:</span>
+                <span id="off" class="itemName"></span>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

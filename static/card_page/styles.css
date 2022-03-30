@@ -1,0 +1,346 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Press Start 2P', cursive;
+
+    background-color: rgb(74,74,85);
+}
+
+#card {
+    width: 400px;
+    height: 560px;
+
+    background: url("./card.png");
+
+    overflow: hidden;
+}
+
+#image {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+/* Name */
+#name {
+    width: 395px;
+    height: auto;
+
+    position: absolute;
+    left: 0px;
+    top: 13px;
+
+    font-size: 1.2em;
+    color: bisque;
+    text-align: right;
+}
+
+/* Headers */
+#headerHp {
+    width: 2ch;
+    height: auto;
+
+    position: absolute;
+    left: 50px;
+    top: 270px;
+
+    font-size: 1.5em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerDefence {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 215px;
+    top: 270px;
+
+    font-size: 1.5em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerAttack {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 50px;
+    top: 310px;
+
+    font-size: 1.5em;
+    color: bisque;
+    text-align: center;
+}
+
+
+#headerHealing {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 50px;
+    top: 350px;
+
+    font-size: 1.5em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerStrength {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 50px;
+    top: 390px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerConst {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 165px;
+    top: 390px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerDex {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 265px;
+    top: 390px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerWis {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 50px;
+    top: 420px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerInt {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 165px;
+    top: 420px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#headerChar {
+    width: 3ch;
+    height: auto;
+
+    position: absolute;
+    left: 265px;
+    top: 420px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+/* combat */
+
+#hp {
+    width: 3ch;
+
+    position: absolute;
+    left: 120px;
+    top: 270px;
+
+    font-size: 1.5em;
+    color: rgb(106, 214, 106);
+    text-align: center;
+}
+
+#attack {
+    width: 5ch;
+
+    position: absolute;
+    left: 233px;
+    top: 310px;
+
+    font-size: 1.5em;
+    color: coral;
+    text-align: right;
+}
+
+#defence {
+    width: 2ch;
+
+    position: absolute;
+    left: 305px;
+    top: 270px;
+
+    font-size: 1.5em;
+    color: rgb(151, 179, 206);
+    text-align: right;
+}
+
+#healing {
+    width: 5ch;
+
+    position: absolute;
+    left: 233px;
+    top: 350px;
+
+    font-size: 1.5em;
+    color: khaki;
+    text-align: right;
+}
+
+/* Stats */
+
+#strength {
+    width: 3ch;
+
+    position: absolute;
+    left: 100px;
+    top: 390px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#const {
+    width: 3ch;
+
+    position: absolute;
+    left: 210px;
+    top: 390px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#dex {
+    width: 3ch;
+
+    position: absolute;
+    left: 310px;
+    top: 390px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#wis {
+    width: 3ch;
+
+    position: absolute;
+    left: 100px;
+    top: 420px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#int {
+    width: 3ch;
+
+    position: absolute;
+    left: 210px;
+    top: 420px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#char {
+    width: 3ch;
+
+    position: absolute;
+    left: 310px;
+    top: 420px;
+
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+/* Inventory */
+#inventoryHeader {
+    width: 10ch;
+    height: auto;
+
+    position: absolute;
+    left: 47px;
+    top: 450px;
+
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+}
+
+#inventory {
+    width: 300px;
+    height: auto;
+
+    line-height: 1.2em;
+
+    position: absolute;
+    left: 50px;
+    top: 475px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    font-size: .7em;
+    color: white;
+    text-align: left;
+}
+
+.itemHeader {
+    width: auto;
+    text-align: left;
+    color: rgb(206, 205, 205);
+}
+
+.itemName {
+    width: auto;
+    max-width: 100%;
+    text-align: right;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

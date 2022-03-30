@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Rags",
+        "number_floor": 0,
+        "number_ceil": 20,
+        "defence": 0,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Bronze Cuirass",
+        "number_floor": 21,
+        "number_ceil": 40,
+        "defence": 11,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 1,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Legionnaire's Cuirass",
+        "number_floor": 41,
+        "number_ceil": 55,
+        "defence": 15,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Peasant Clothes",
+        "number_floor": 56,
+        "number_ceil": 80,
+        "defence": 1,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Apprentice Robes",
+        "number_floor": 81,
+        "number_ceil": 100,
+        "defence": 3,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 1,
+        "WIS": 1
+    },
+    {
+        "name": "Novice Robes",
+        "number_floor": 101,
+        "number_ceil": 110,
+        "defence": 4,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 2,
+        "WIS": 1
+    },
+    {
+        "name": "Master Robes",
+        "number_floor": 111,
+        "number_ceil": 113,
+        "defence": 5,
+        "HP": 5,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 5,
+        "WIS": 5
+    },
+    {
+        "name": "Leather Armour",
+        "number_floor": 114,
+        "number_ceil": 138,
+        "defence": 8,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Priest Robes",
+        "number_floor": 139,
+        "number_ceil": 143,
+        "defence": 3,
+        "HP": 10,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 10
+    },
+    {
+        "name": "Chainmail",
+        "number_floor": 144,
+        "number_ceil": 164,
+        "defence": 13,
+        "HP": 0,
+        "STR": 0,
+        "DEX": -1,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Splint Mail",
+        "number_floor": 165,
+        "number_ceil": 175,
+        "defence": 14,
+        "HP": 0,
+        "STR": 0,
+        "DEX": -2,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Samurai Armour",
+        "number_floor": 176,
+        "number_ceil": 177,
+        "defence": 18,
+        "HP": 5,
+        "STR": 0,
+        "DEX": -1,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Gladiator Armour",
+        "number_floor": 178,
+        "number_ceil": 193,
+        "defence": 10,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 1,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Monk Robes",
+        "number_floor": 194,
+        "number_ceil": 213,
+        "defence": 1,
+        "HP": 0,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 5
+    },
+    {
+        "name": "Plate Armour",
+        "number_floor": 214,
+        "number_ceil": 219,
+        "defence": 18,
+        "HP": 0,
+        "STR": 0,
+        "DEX": -3,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Kilt",
+        "number_floor": 220,
+        "number_ceil": 235,
+        "defence": 6,
+        "HP": 0,
+        "STR": 1,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 0
+    },
+    {
+        "name": "Bard Tunic",
+        "number_floor": 236,
+        "number_ceil": 255,
+        "defence": 4,
+        "HP": 1,
+        "STR": 0,
+        "DEX": 0,
+        "INTEL": 0,
+        "WIS": 1
+    }
+]
